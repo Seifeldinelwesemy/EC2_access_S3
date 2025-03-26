@@ -1,0 +1,5 @@
+.terraform/
+*.tfstate.backup
+*.tfstate
+.terraform.lock.hcl
+seif-new-key.pem
