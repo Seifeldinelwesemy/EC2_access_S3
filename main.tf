@@ -120,6 +120,6 @@ resource "aws_instance" "server1" {
   iam_instance_profile   = aws_iam_instance_profile.instance_profile.name
   key_name = "seif-new-key"
   tags = {
-    Name = "demo_instance"
+    Name = "first_instance"
   }
 }
