@@ -99,7 +99,7 @@ resource "aws_security_group" "secg" {
     vpc_id = aws_vpc.vpc1.id
   ingress {
     protocol = "tcp"
-    cidr_blocks = ["102.184.145.247/32"]
+    cidr_blocks = [var.my_ip]
     from_port = 22
     to_port = 22
   }
